@@ -1,0 +1,34 @@
+{
+  "n_rows": 10155,
+  "n_features": 28,
+  "target_positive_rate": 0.8930576070901034,
+  "top_correlated_features": {
+    "Online Purchase Amount": -0.3845778949201081,
+    "Investment Tax Saving Bond": -0.288024154029476,
+    "Average Credit Card Transaction": -0.26519725535109356,
+    "Investment in Equity": -0.2531820218369753,
+    "Life Insurance": -0.21609001685104132,
+    "Portfolio Balance": -0.2158472679026681,
+    "Investment in Commodity": -0.20656684448091964,
+    "Investment in Derivative": -0.15916328585206996,
+    "Investment in Mutual Fund": -0.11468919010190946,
+    "Average A/C Balance": -0.11211781799883747
+  },
+  "best_model": "rf",
+  "best_model_val_metrics": {
+    "roc_auc": 0.9822197043984575,
+    "pr_auc": 0.9977859549369298,
+    "accuracy": 0.9527326440177253,
+    "precision": 0.9544973544973545,
+    "recall": 0.9944873208379272,
+    "f1": 0.9740820734341252
+  },
+  "best_model_test_metrics": {
+    "roc_auc": 0.9829259370284373,
+    "pr_auc": 0.9978782567283992,
+    "accuracy": 0.9517479074347612,
+    "precision": 0.9511041009463722,
+    "recall": 0.9972436604189636,
+    "f1": 0.9736275565123789
+  }
+}

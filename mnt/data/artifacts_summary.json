@@ -1,0 +1,44 @@
+{
+  "test_csv": "mnt/data/test_set_saved.csv",
+  "best_model": "mnt/data/best_model.joblib",
+  "preprocessor": "mnt/data/preprocessor.joblib",
+  "candidate_models": [
+    "mnt/data/model_logreg.joblib",
+    "mnt/data/model_rf.joblib"
+  ],
+  "selected_model_name": "rf",
+  "target_col": "Revenue Grid",
+  "numeric_columns": [
+    "year_last_moved",
+    "Average Credit Card Transaction",
+    "Balance Transfer",
+    "Term Deposit",
+    "Life Insurance",
+    "Medical Insurance",
+    "Average A/C Balance",
+    "Personal Loan",
+    "Investment in Mutual Fund",
+    "Investment Tax Saving Bond",
+    "Home Loan",
+    "Online Purchase Amount",
+    "Investment in Commodity",
+    "Investment in Equity",
+    "Investment in Derivative",
+    "Portfolio Balance"
+  ],
+  "categorical_columns": [
+    "age_band",
+    "status",
+    "occupation",
+    "occupation_partner",
+    "home_status",
+    "family_income",
+    "self_employed",
+    "self_employed_partner",
+    "post_area",
+    "gender",
+    "region",
+    "children"
+  ],
+  "removed_identifier_columns_csv": "mnt/data/removed_identifier_columns.csv"
+}
